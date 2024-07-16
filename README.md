@@ -9,6 +9,10 @@ Los juegos son sencillos, no esperen gráficos realistas, simplemente educativos
 > Se pueden ejecutar con `pygame` instalado y con un simply `python game.py`
 
 - [multiplicar-python](multiplicar-python/)
+  - Ideal para aprender la tabla de multiplicar de 2 a 9
+- [simulador_vida-python](simulador_vida-python/)
+  - En base a unos puntos iniciales, estos se van reproduciendo aleatoriamente hasta que desaparecen si no se reproducen lo suficiente.
+  - Falta mejorar para que permita ingresar valores iniciales, en vez de elegir unos en el código.
 
 ## Juegos en HTML5
 
