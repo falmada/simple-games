@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Multiplicación</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            background-color: #ffffff;
+            border: 1px solid #000000;
+        }
+        #input-container {
+            position: absolute;
+            bottom: 50px;
+            text-align: center;
+        }
+        input {
+            font-size: 20px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        #final-score {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 20px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="input-container">
+        <span id="prompt"></span>
+        <input type="text" id="answerInput" autofocus />
+    </div>
+    <div id="final-score" hidden></div>
+    <script src="game.js"></script>
+</body>
+</html>
